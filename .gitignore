@@ -1,0 +1,82 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# C extensions
+*.so
+
+# Distribution / packaging
+bin/
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# Virtual environments (Crucial: never commit your venv)
+backend/venv/
+venv/
+ENV/
+env/
+
+# FastAPI / Uvicorn local logs
+*.log
+
+# Dependencies
+frontend/node_modules/
+node_modules/
+jspm_packages/
+
+# TypeScript cache
+*.tsbuildinfo
+
+# Optional npm cache directory
+.npm
+
+# Output of Vite / production builds
+frontend/dist/
+dist/
+
+# ENVIRONMENT & SECRETS
+.env
+.env.local
+.env.*.local
+backend/.env
+frontend/.env
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# Linux
+*~
+
+# IDEs & EDITORS
+.vscode/
+!.vscode/extensions.json
+
+# PyCharm / JetBrains
+.idea/
+
+# Editors
+*.swp
+*.swo
